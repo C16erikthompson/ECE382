@@ -10,16 +10,16 @@ Look at the schematic for the Nokia1202 LCD BoosterPack. Complete the following 
 
 | Name | Pin # | Type | PxDIR| PxREN | PxOUT |
 |:-: | :-: | :-: | :-: | :-: | :-: |
-|GND | | | | |  |
-| RST |   |   |   |   |   |
-| P1.4 |   |   |   |   |   |   
-| MOSI|  |   |   |   |   |   
-| SCLK |   |   |   |   |   |   
-| VCC |   |   |   |   |   |  
-| S1 |   |   |   |   |   | 
-| S2 |   |   |   |   |   | 
-| S3 |   |   |   |   |   | 
-| S4 || | | | | 
+|GND |20 | | | |  |
+| RST | 8  |   |   |   |   |
+| P1.4 | 6  |   |   |   |   |   
+| MOSI| 15 |   |   |   |   |   
+| SCLK | 7  |   |   |   |   |   
+| VCC |  1 |   |   |   |   |  
+| S1 |  9 |   |   |   |   | 
+| S2 |  10 |   |   |   |   | 
+| S3 |  11 |   |   |   |   | 
+| S4 |12 | | | | | 
 
 
 ### Configure the MSP430
